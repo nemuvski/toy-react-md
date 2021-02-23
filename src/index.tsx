@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './components/App';
+
+// 基本スタイルを反映.
+import './styles/base.scss';
 
 ReactDOM.render(
   <React.StrictMode>
