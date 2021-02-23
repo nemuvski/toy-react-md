@@ -1,0 +1,16 @@
+@use "../variables" as *;
+
+.markdown-viewer {
+  overflow-y: auto;
+  width: 100%;
+  height: 17rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px dashed $color-gray;
+  border-radius: 0.25rem;
+  word-break: break-all;
+
+  &__message {
+    margin: 0;
+    color: $color-gray;
+  }
+}
