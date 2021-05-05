@@ -14,8 +14,7 @@ const App = () => {
         <textarea
           className="app__editor"
           placeholder="マークダウンが利用できます。"
-          name="markdown-text"
-          ref={register()}
+          {...register('markdown-text')}
         />
       </div>
       <div className="app__container">
