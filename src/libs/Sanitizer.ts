@@ -1,5 +1,5 @@
 import DOMPurify, {Config} from 'dompurify';
-import marked from 'marked';
+import { marked } from 'marked';
 
 // dangerouslySetInnerHTMLに代入する変数の型.
 type InnerHTML = {
