@@ -2,13 +2,20 @@
 
 React.jsで `marked` と `dompurify` を用いて、簡単なマークダウンエディタを作ってみる。
 
-### 前準備
+
+## スクリーンショット
+
+<img src="capture.png" width="400px" />
+
+
+## 前準備
 
 ```shell
 yarn install
 ```
 
-### 起動
+
+## 起動
 
 ```shell
 yarn start
@@ -17,7 +24,7 @@ yarn start
 `http://localhost:3000/` にアクセスすると確認できます。
 
 
-### 制限の変更
+## カスタマイズ
 
 利用できるタグに制限を設けていますが、変更は可能です。
 
