@@ -24,6 +24,7 @@
     "typescript": "^4.5.4"
   },
   "scripts": {
+    "clean": "rimraf build coverage",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
