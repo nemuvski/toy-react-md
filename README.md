@@ -5,7 +5,7 @@ React.jsで `marked` と `dompurify` を用いて、簡単なマークダウン�
 
 ## スクリーンショット
 
-<img src="capture.png" width="400px" />
+<img src="capture.png" width="400" />
 
 
 ## 前準備
